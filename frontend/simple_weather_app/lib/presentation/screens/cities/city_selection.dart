@@ -1,15 +1,12 @@
 import "dart:convert";
-import "dart:ffi";
 
 import "package:flutter/material.dart";
 import "package:flutter/services.dart" as root_bundle;
 import "package:provider/provider.dart";
 import "package:simple_weather_app/models/city_model.dart";
-import "package:simple_weather_app/models/weather_model.dart";
 import "package:simple_weather_app/presentation/providers/cities_provider.dart";
 import "package:simple_weather_app/presentation/providers/weather_provider.dart";
 import "package:simple_weather_app/presentation/screens/home/home_screen.dart";
-import "package:simple_weather_app/services/weather_service.dart";
 
 const cards = <Map<String, dynamic>>[
   {'elevation': 0.0, 'label': 'Elevation 0'},
@@ -23,7 +20,7 @@ const cards = <Map<String, dynamic>>[
 class CitySelection extends StatelessWidget {
   CitySelection({super.key});
 
-  static List<City> _cities = List.empty();
+  static final List<City> _cities = List.empty();
   static City selectedCity = City();
 
   final focusNode = FocusNode();

@@ -1,11 +1,9 @@
-import 'dart:convert';
-
 import 'package:dio/dio.dart';
 import 'package:simple_weather_app/config/constraints/enviroments.dart';
 import 'package:simple_weather_app/models/weather_model.dart';
 
 class WeatherService {
-  final String apiEndpointUrl = '${Enviroment.apiUrl}';
+  final String apiEndpointUrl = Enviroment.apiUrl;
 
   final _dio = Dio();
 
@@ -32,7 +30,7 @@ class WeatherService {
 
   Future<Weather> getWeatherByCityName({required String cityName}) async {
     final response = await _dio.get("${apiEndpointUrl}getWeatherByCityName",
-        queryParameters: {"units": "imperial", "cityName": "$cityName"});
+        queryParameters: {"units": "imperial", "cityName": cityName});
 
     Weather queriedWeather = Weather(
       weatherMain: response.data["weather_main"],

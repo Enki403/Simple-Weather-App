@@ -1,11 +1,11 @@
 import "package:flutter/material.dart";
 import "package:provider/provider.dart";
 import "package:simple_weather_app/models/city_model.dart";
-import "package:simple_weather_app/models/weather_model.dart";
 import "package:simple_weather_app/presentation/providers/cities_provider.dart";
 import "package:simple_weather_app/presentation/providers/weather_provider.dart";
 import "package:simple_weather_app/presentation/screens/cities/city_selection.dart";
 
+// ignore: must_be_immutable
 class HomeScreen extends StatelessWidget {
   HomeScreen({super.key, City? selectedCity});
   City selectedCity = City();

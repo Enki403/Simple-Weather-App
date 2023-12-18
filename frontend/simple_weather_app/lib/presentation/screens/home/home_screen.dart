@@ -1,6 +1,7 @@
 import "package:flutter/material.dart";
 import "package:provider/provider.dart";
 import "package:simple_weather_app/models/city_model.dart";
+import "package:simple_weather_app/models/weather_model.dart";
 import "package:simple_weather_app/presentation/providers/cities_provider.dart";
 import "package:simple_weather_app/presentation/providers/weather_provider.dart";
 import "package:simple_weather_app/presentation/screens/cities/city_selection.dart";
@@ -15,6 +16,17 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     final citiesProvider = context.watch<CitiesProvider>();
     final weatherProvider = context.watch<WeatherProvider>();
+
+    if (weatherProvider.currentWeather.temperature == null) {
+      weatherProvider.currentWeather = Weather(
+        weatherMain: "Clouds",
+        weatherDescription: "broken clouds",
+        weatherIcon: "04n",
+        temperature: 61.56,
+        feelsLike: 61.27,
+        humidity: 82,
+      );
+    }
 
     final size = MediaQuery.of(context).size;
 

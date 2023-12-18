@@ -24,3 +24,5 @@ And it implements two endpoints from [OpenWeatherMap](https://openweathermap.org
 for the front end you should have either a virtual emulator for andorid or your mobile phone with the USB debugging feature enabled.
 
 you should have installed flutter and dart.
+
+Note: In thos case I uploaded the .env file for your convinience.

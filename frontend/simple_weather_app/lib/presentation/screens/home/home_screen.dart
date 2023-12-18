@@ -95,16 +95,11 @@ class HomeScreen extends StatelessWidget {
                   const SizedBox(
                     height: 20,
                   ),
-                  Text(
-                    "Feels-like: ${weatherProvider.currentWeather.feelsLike} °F",
-                    style: const TextStyle(fontSize: 20),
-                    textAlign: TextAlign.center,
-                  ),
                   const SizedBox(
                     height: 20,
                   ),
                   Text(
-                    "Hummidity: ${weatherProvider.currentWeather.humidity} °F",
+                    "Humidity: ${weatherProvider.currentWeather.humidity} %",
                     style: const TextStyle(fontSize: 20),
                     textAlign: TextAlign.center,
                   ),

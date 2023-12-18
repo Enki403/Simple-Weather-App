@@ -1,6 +1,7 @@
 # Node modules
 node_modules
 
+build
 # Miscellaneous
 *.class
 *.log

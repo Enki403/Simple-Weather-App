@@ -1,16 +1,24 @@
 import "package:flutter/material.dart";
+import "package:simple_weather_app/models/city_model.dart";
+import "package:simple_weather_app/presentation/screens/cities/city_selection.dart";
 
 class HomeScreen extends StatelessWidget {
-  const HomeScreen({super.key});
+  final City selectedCity = City();
+
+  HomeScreen({super.key, City? selectedCity});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(title: const Text("Weather App")),
-        body: _HomeView(),
+        appBar: AppBar(title: const Center(child: Text("Weather App"))),
+        body: _HomeView(selectedCity),
         floatingActionButton: FloatingActionButton(
           onPressed: () {
-            // ToDo: Navegar a pantalla de busqueda
+            Navigator.of(context).push(
+              MaterialPageRoute(
+                builder: (context) => CitySelection(),
+              ),
+            );
           },
           tooltip: 'Search',
           child: const Icon(Icons.search),
@@ -19,14 +27,19 @@ class HomeScreen extends StatelessWidget {
 }
 
 class _HomeView extends StatelessWidget {
-  const _HomeView();
+  final City selectedCity = City();
+
+  _HomeView(City? selectedCity);
 
   @override
   Widget build(BuildContext context) {
-    return const Center(
-      child: Column(children: [
-        Text("Here goes the data"),
-      ]),
+    return Center(
+      child: Padding(
+        padding: const EdgeInsets.symmetric(horizontal: 15, vertical: 10),
+        child: Column(children: [
+          Text("${selectedCity}"),
+        ]),
+      ),
     );
   }
 }

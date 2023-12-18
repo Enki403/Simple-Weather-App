@@ -1,0 +1,250 @@
+[
+  {
+    "name": "San José de Tarros",
+    "lat": "15.3",
+    "lng": "-88.7",
+    "country": "HN",
+    "admin1": "16",
+    "admin2": ""
+  },
+{
+    "name": "San José de Río Tinto",
+    "lat": "14.93333",
+    "lng": "-85.7",
+    "country": "HN",
+    "admin1": "15",
+    "admin2": ""
+  },
+{
+    "name": "San José del Potrero",
+    "lat": "14.83999",
+    "lng": "-87.28405",
+    "country": "HN",
+    "admin1": "04",
+    "admin2": ""
+  },
+{
+    "name": "San José del Boquerón",
+    "lat": "15.51856",
+    "lng": "-87.89786",
+    "country": "HN",
+    "admin1": "06",
+    "admin2": ""
+  },
+{
+    "name": "San José",
+    "lat": "14.90235",
+    "lng": "-88.72063",
+    "country": "HN",
+    "admin1": "05",
+    "admin2": ""
+  },
+{
+    "name": "San José de Comayagua",
+    "lat": "14.73333",
+    "lng": "-88.03333",
+    "country": "HN",
+    "admin1": "04",
+    "admin2": ""
+  },
+{
+    "name": "San José de Colinas",
+    "lat": "15.04101",
+    "lng": "-88.30186",
+    "country": "HN",
+    "admin1": "16",
+    "admin2": ""
+  },
+{
+    "name": "San José",
+    "lat": "15.31667",
+    "lng": "-87.16667",
+    "country": "HN",
+    "admin1": "18",
+    "admin2": ""
+  },
+{
+    "name": "San José",
+    "lat": "14.24809",
+    "lng": "-87.95951",
+    "country": "HN",
+    "admin1": "12",
+    "admin2": ""
+  },
+{
+    "name": "San Joaquín",
+    "lat": "15.06053",
+    "lng": "-88.91193",
+    "country": "HN",
+    "admin1": "05",
+    "admin2": ""
+  },
+{
+    "name": "San Jerónimo",
+    "lat": "14.96667",
+    "lng": "-88.86667",
+    "country": "HN",
+    "admin1": "05",
+    "admin2": ""
+  },
+{
+    "name": "San Jerónimo",
+    "lat": "14.63333",
+    "lng": "-87.6",
+    "country": "HN",
+    "admin1": "04",
+    "admin2": ""
+  },
+{
+    "name": "San Jerónimo",
+    "lat": "13.17667",
+    "lng": "-87.13639",
+    "country": "HN",
+    "admin1": "02",
+    "admin2": ""
+  },
+{
+    "name": "San Ignacio",
+    "lat": "14.65",
+    "lng": "-87.03333",
+    "country": "HN",
+    "admin1": "08",
+    "admin2": ""
+  },
+{
+    "name": "San Francisco de Yojoa",
+    "lat": "15.01442",
+    "lng": "-87.9716",
+    "country": "HN",
+    "admin1": "06",
+    "admin2": ""
+  },
+{
+    "name": "San Francisco del Valle",
+    "lat": "14.43542",
+    "lng": "-88.95608",
+    "country": "HN",
+    "admin1": "14",
+    "admin2": ""
+  },
+{
+    "name": "San Francisco de la Paz",
+    "lat": "14.9",
+    "lng": "-86.2",
+    "country": "HN",
+    "admin1": "15",
+    "admin2": ""
+  },
+{
+    "name": "San Francisco de Coray",
+    "lat": "13.66139",
+    "lng": "-87.53278",
+    "country": "HN",
+    "admin1": "17",
+    "admin2": ""
+  },
+{
+    "name": "San Francisco de Cones",
+    "lat": "14.51667",
+    "lng": "-88.9",
+    "country": "HN",
+    "admin1": "14",
+    "admin2": ""
+  },
+{
+    "name": "San Francisco de Becerra",
+    "lat": "14.63333",
+    "lng": "-86.1",
+    "country": "HN",
+    "admin1": "15",
+    "admin2": ""
+  },
+{
+    "name": "San Francisco",
+    "lat": "15.65",
+    "lng": "-87.05",
+    "country": "HN",
+    "admin1": "01",
+    "admin2": ""
+  },
+{
+    "name": "San Fernando",
+    "lat": "14.68333",
+    "lng": "-89.11667",
+    "country": "HN",
+    "admin1": "14",
+    "admin2": ""
+  },
+{
+    "name": "San Esteban",
+    "lat": "15.21231",
+    "lng": "-85.76996",
+    "country": "HN",
+    "admin1": "15",
+    "admin2": ""
+  },
+{
+    "name": "Sandy Bay",
+    "lat": "16.32923",
+    "lng": "-86.56446",
+    "country": "HN",
+    "admin1": "11",
+    "admin2": ""
+  },
+{
+    "name": "San Diego",
+    "lat": "14.05",
+    "lng": "-86.46667",
+    "country": "HN",
+    "admin1": "07",
+    "admin2": ""
+  },
+{
+    "name": "San Buenaventura",
+    "lat": "15.0243",
+    "lng": "-87.99447",
+    "country": "HN",
+    "admin1": "06",
+    "admin2": ""
+  },
+{
+    "name": "San Antonio del Norte",
+    "lat": "13.88444",
+    "lng": "-87.70306",
+    "country": "HN",
+    "admin1": "12",
+    "admin2": ""
+  },
+{
+    "name": "San Antonio de la Cuesta",
+    "lat": "14.63333",
+    "lng": "-87.6",
+    "country": "HN",
+    "admin1": "04",
+    "admin2": ""
+  },
+{
+    "name": "San Antonio de Cortés",
+    "lat": "15.11611",
+    "lng": "-88.04074",
+    "country": "HN",
+    "admin1": "06",
+    "admin2": ""
+  },
+{
+    "name": "San Antonio",
+    "lat": "15.6",
+    "lng": "-87.15",
+    "country": "HN",
+    "admin1": "01",
+    "admin2": ""
+  },
+{
+    "name": "San Antonio",
+    "lat": "15.33333",
+    "lng": "-87.15",
+    "country": "HN",
+    "admin1": "18",
+    "admin2": ""
+  }
+]

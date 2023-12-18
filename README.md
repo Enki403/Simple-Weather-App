@@ -21,8 +21,15 @@ And it implements two endpoints from [OpenWeatherMap](https://openweathermap.org
 
 ### Frontend
 
-for the front end you should have either a virtual emulator for andorid or your mobile phone with the USB debugging feature enabled.
+For the frontend you should have either a virtual emulator for andorid or your mobile phone with the USB debugging feature enabled and you should have installed flutter and dart.
 
-you should have installed flutter and dart.
+#### Open project directory
+`cd Simple-Weather-App`
+
+#### Install Dependencies
+`flutter pub get`
+
+#### Run the Project
+`flutter run`
 
 Note: In thos case I uploaded the .env file for your convinience.

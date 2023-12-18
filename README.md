@@ -29,7 +29,4 @@ For the frontend you should have either a virtual emulator for andorid or your m
 #### Install Dependencies
 `flutter pub get`
 
-#### Run the Project
-`flutter run`
-
 Note: In thos case I uploaded the .env file for your convinience.

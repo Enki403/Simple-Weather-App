@@ -1,4 +1,0 @@
-#Mon Dec 18 05:16:04 CST 2023
-base.0=C\:\\Users\\vasqu\\Desktop\\PT\\Simple-Weather-App\\frontend\\simple_weather_app\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
-path.0=classes.dex
-renamed.0=classes.dex
